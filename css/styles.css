@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: row;
     color: var(--main-text-color);
+    
 }
 
 #bio-container {
@@ -43,8 +44,12 @@
     min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
+    
 }
 
+#about-container p{
+    margin-bottom: 5%;
+}
 
 /*Bio container */
 #bio-container h2{
